@@ -10,7 +10,9 @@
  * Example 1:
  *   Input: arr = [10,2,5,3]
  *   Output: true
- *   Explanation: For i = 0 and j = 2, arr[i] == 10 == 2 * 5 == 2 * arr[j]
+ *   Explanation:
+ *     For i = 0 and j = 2,
+ *     arr[i] == 10 == 2 * 5 == 2 * arr[j]
  * 
  * Example 2:
  *   Input: arr = [3,1,7,11]
@@ -22,7 +24,8 @@
  *   • -10^3 <= arr[i] <= 10^3
  *
  * Hint 1:
- *   Loop from i = 0 to arr.length, maintaining in a hashTable the array elements from [0, i - 1].
+ *   Loop from i = 0 to arr.length,
+ *   maintaining in a hashTable the array elements from [0, i - 1].
  *
  * Hint 2:
  *   On each step of the loop check if we have seen the element 2 * arr[i] so far.
