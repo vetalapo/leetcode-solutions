@@ -33,7 +33,8 @@
  *
  * Follow-up: Can you solve it without using an extra space (i.e., O(1) memory)?
  *
- * Hint 1: Just apply what's said in the statement.
+ * Hint 1:
+ *   Just apply what's said in the statement.
  *
  * Hint 2
  *   Notice that you can't apply it on the same array directly
