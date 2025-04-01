@@ -10,9 +10,9 @@
  * and the rest of the numbers are given to Bob.
  * Alice wins if the sum of her numbers is strictly greater
  * than the sum of Bob's numbers.
- * 
+ *
  * Return true if Alice can win this game, otherwise, return false.
- * 
+ *
  * Example 1:
  *   Input: nums = [1,2,3,4,10]
  *   Output: false
