@@ -9,7 +9,8 @@
  * Example 1:
  *   Input: sentence = "thequickbrownfoxjumpsoverthelazydog"
  *   Output: true
- *   Explanation: sentence contains at least one of every letter of the English alphabet.
+ *   Explanation:
+ *     sentence contains at least one of every letter of the English alphabet.
  *
  * Example 2:
  *   Input: sentence = "leetcode"
@@ -23,7 +24,8 @@
  *   Iterate over the string and mark each character as found
  *   (using a boolean array, bitmask, or any other similar way).
  *
- * Hint 2: Check if the number of found characters equals the alphabet length.
+ * Hint 2:
+ *   Check if the number of found characters equals the alphabet length.
  **
  * https://leetcode.com/problems/check-if-the-sentence-is-pangram/
 ***/
