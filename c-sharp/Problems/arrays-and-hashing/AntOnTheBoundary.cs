@@ -10,7 +10,7 @@
  * At each step, it moves according to the value of the current element:
  *   • If nums[i] < 0, it moves left by -nums[i] units.
  *   • If nums[i] > 0, it moves right by nums[i] units.
- * 
+ *
  * Return the number of times the ant returns to the boundary.
  *
  * Notes:
