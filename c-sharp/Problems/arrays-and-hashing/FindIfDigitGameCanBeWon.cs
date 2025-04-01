@@ -9,7 +9,7 @@
  * or all double-digit numbers from nums,
  * and the rest of the numbers are given to Bob.
  * Alice wins if the sum of her numbers is strictly greater
- *  than the sum of Bob's numbers.
+ * than the sum of Bob's numbers.
  *
  * Return true if Alice can win this game, otherwise, return false.
  *
