@@ -33,7 +33,8 @@
  *   • 0 <= nums[i] < nums.length
  *   • The elements in nums are distinct.
  *
- * Follow-up: Can you solve it without using an extra space (i.e., O(1) memory)?
+ * Follow-up:
+ *   Can you solve it without using an extra space (i.e., O(1) memory)?
  *
  * Hint 1:
  *   Just apply what's said in the statement.
