@@ -17,7 +17,8 @@
  *   Input: nums = [1,2,3,4,10]
  *   Output: false
  *   Explanation:
- *     Alice cannot win by choosing either single-digit or double-digit numbers.
+ *     Alice cannot win by choosing either single-digit
+ *     or double-digit numbers.
  *
  * Example 2:
  *   Input: nums = [1,2,3,4,5,14]
