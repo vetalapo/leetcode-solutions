@@ -32,12 +32,12 @@
  *   • 2 <= JSON.stringify(calls).length <= 1000
  **
  * https://leetcode.com/problems/allow-one-function-call/
-**/
+***/
 
 /**
  * @param {Function} fn
  * @return {Function}
-**/
+***/
 const once = function(fn) {
     let called = false;
 
