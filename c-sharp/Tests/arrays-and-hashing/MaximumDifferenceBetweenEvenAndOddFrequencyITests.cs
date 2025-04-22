@@ -1,0 +1,12 @@
+﻿using NUnit.Framework;
+
+using Problems;
+
+public class MaximumDifferenceBetweenEvenAndOddFrequencyITests
+{
+    [TestCase( "aaaaabbc", ExpectedResult = 3 )]
+    [TestCase( "abcabcab", ExpectedResult = 1 )]
+    [TestCase( "mmsmsym", ExpectedResult = -1 )]
+    public int MaxDifferenceTest( string s ) =>
+        new MaximumDifferenceBetweenEvenAndOddFrequencyI().MaxDifference( s );
+}
