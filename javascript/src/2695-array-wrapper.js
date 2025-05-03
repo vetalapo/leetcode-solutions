@@ -44,7 +44,7 @@
 /**
  * @param {number[]} nums
  * @return {void}
- */
+***/
 const ArrayWrapper = function(nums) {
     this.nums = nums;
 };
