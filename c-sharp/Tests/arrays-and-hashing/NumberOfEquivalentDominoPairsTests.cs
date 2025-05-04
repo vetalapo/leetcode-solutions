@@ -14,7 +14,11 @@ public class NumberOfEquivalentDominoPairsTests
     {
         get
         {
-            yield return TestCaseData( new int[][] { [] } ).Returns( 0 );
+            yield return new TestCaseData( [new int[][] { [1, 2], [2, 1], [3, 4], [5, 6] }] ).Returns( 1 );
+
+            yield return new TestCaseData( [new int[][] { [1, 2], [1, 2], [1, 1], [1, 2], [2, 2] }] ).Returns( 3 );
+
+            yield return new TestCaseData( [new int[][] { [1, 1], [2, 2], [1, 1], [1, 2], [1, 2], [1, 1] }] ).Returns( 4 );
         }
     }
 }
