@@ -51,14 +51,14 @@ const ArrayWrapper = function(nums) {
 
 /**
  * @return {number}
- */
+***/
 ArrayWrapper.prototype.valueOf = function() {
     return this.nums.reduce((agg, num) => agg + num, 0);
 }
 
 /**
  * @return {string}
- */
+***/
 ArrayWrapper.prototype.toString = function() {
     return `[${this.nums.join(',')}]`;
 }
@@ -69,6 +69,6 @@ ArrayWrapper.prototype.toString = function() {
  * obj1 + obj2; // 10
  * String(obj1); // "[1,2]"
  * String(obj2); // "[3,4]"
- */
+***/
 
 module.exports = ArrayWrapper;
