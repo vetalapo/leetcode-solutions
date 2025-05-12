@@ -70,6 +70,61 @@ public class TreeNode
         return result;
     }
 
+    // BST: Binary Search Tree
+    public static TreeNode CreateDescBST( int[] values )
+    {
+        if ( values.Length == 0 )
+        {
+            return null;
+        }
+
+        TreeNode result = new()
+        {
+            val = values[0]
+        };
+
+        for ( int i = 1; i < values.Length; i++ )
+        {
+            TreeNode temp = result;
+
+            while ( true )
+            {
+                if ( values[i] == temp.val )
+                {
+                    break;
+                }
+                else if ( values[i] < temp.val )
+                {
+                    if ( temp.right is null )
+                    {
+                        temp.right = new TreeNode( values[i] );
+
+                        break;
+                    }
+                    else
+                    {
+                        temp = temp.right;
+                    }
+                }
+                else
+                {
+                    if ( temp.left is null )
+                    {
+                        temp.left = new TreeNode( values[i] );
+
+                        break;
+                    }
+                    else
+                    {
+                        temp = temp.left;
+                    }
+                }
+            }
+        }
+
+        return result;
+    }
+
     public override bool Equals( object? obj )
     {
         return obj is TreeNode treeNode &&
