@@ -63,7 +63,7 @@
  * @param {Array} args
  * @param {number} t
  * @return {Function}
- */
+***/
 const cancellable = (fn, args, t) => {
     const timer = setTimeout(() => fn(...args), t);
 
