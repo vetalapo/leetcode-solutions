@@ -94,6 +94,6 @@ const cancellable = (fn, args, t) => {
  *  setTimeout(() => {
  *      console.log(result); // [{"time":20,"returned":10}]
  *  }, maxT + 15)
- */
+***/
 
 module.exports = cancellable;
