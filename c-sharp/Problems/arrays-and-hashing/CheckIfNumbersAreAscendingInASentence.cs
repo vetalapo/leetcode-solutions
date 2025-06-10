@@ -8,9 +8,9 @@
  * consisting of digits 0-9 with no leading zeros,
  * or a word consisting of lowercase English letters.
  *
- *   • For example,
- *     "a puppy has 2 eyes 4 legs" is a sentence with seven tokens:
- *     "2" and "4" are numbers and the other tokens such as "puppy" are words.
+ * For example,
+ *   "a puppy has 2 eyes 4 legs" is a sentence with seven tokens:
+ *   "2" and "4" are numbers and the other tokens such as "puppy" are words.
  *
  * Given a string s representing a sentence,
  * you need to check if all the numbers in s are strictly increasing
