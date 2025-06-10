@@ -36,7 +36,8 @@
  *   • s1 and s2 consist of only lowercase English letters.
  *
  * Hint 1:
- *   The answer is false if the number of nonequal positions in the strings is not equal to 0 or 2.
+ *   The answer is false if the number of nonequal positions in the strings
+ *   is not equal to 0 or 2.
  *
  * Hint 2:
  *   Check that these positions have the same set of characters.
