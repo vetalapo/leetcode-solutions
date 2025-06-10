@@ -19,9 +19,11 @@
  *   Explanation:
  *     const f = createHelloWorld();
  *     f({}, null, 42); // "Hello World"
- *     Any arguments could be passed to the function but it should still always return "Hello World".
+ *     Any arguments could be passed to the function
+ *     but it should still always return "Hello World".
  *
- * Constraints: 0 <= args.length <= 10
+ * Constraints:
+ *   • 0 <= args.length <= 10
  **
  * https://leetcode.com/problems/create-hello-world-function/
 ***/
@@ -34,6 +36,6 @@ var createHelloWorld = () => () => "Hello World";
 /**
  * const f = createHelloWorld();
  * f(); // "Hello World"
- */
+***/
 
 module.exports = createHelloWorld;
