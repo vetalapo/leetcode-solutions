@@ -2,7 +2,8 @@
  * 1346
  * Check If N and Its Double Exist
  **
- * Given an array arr of integers, check if there exist two indices i and j such that:
+ * Given an array arr of integers,
+ * check if there exist two indices i and j such that:
  *   • i != j
  *   • 0 <= i, j < arr.length
  *   • arr[i] == 2 * arr[j]
@@ -28,10 +29,12 @@
  *   maintaining in a hashTable the array elements from [0, i - 1].
  *
  * Hint 2:
- *   On each step of the loop check if we have seen the element 2 * arr[i] so far.
+ *   On each step of the loop check
+ *   if we have seen the element 2 * arr[i] so far.
  *
  * Hint 3:
- *   Also check if we have seen arr[i] / 2 in case arr[i] % 2 == 0.
+ *   Also check if we have seen
+ *   arr[i] / 2 in case arr[i] % 2 == 0.
  **
  * https://leetcode.com/problems/check-if-n-and-its-double-exist/
 ***/
