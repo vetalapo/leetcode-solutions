@@ -27,7 +27,8 @@
  *   Input: s = "bbb"
  *   Output: true
  *   Explanation:
- *     There are no 'a's, hence, every 'a' appears before every 'b' and
+ *     There are no 'a's,
+ *     hence, every 'a' appears before every 'b' and
  *     we return true.
  *
  * Constraints:
