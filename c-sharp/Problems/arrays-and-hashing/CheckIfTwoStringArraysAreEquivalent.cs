@@ -6,7 +6,8 @@
  * return true if the two arrays represent the same string,
  * and false otherwise.
  *
- * A string is represented by an array if the array elements concatenated in order forms the string.
+ * A string is represented by an array
+ * if the array elements concatenated in order forms the string.
  *
  * Example 1:
  *   Input: word1 = ["ab", "c"], word2 = ["a", "bc"]
@@ -31,11 +32,13 @@
  *   • word1[i] and word2[i] consist of lowercase letters.
  *
  * Hint 1:
- *   Concatenate all strings in the first array into a single string in the given order,
+ *   Concatenate all strings in the first array
+ *   into a single string in the given order,
  *   the same for the second array.
  *
  * Hint 2:
- *   Both arrays represent the same string if and only if the generated strings are the same.
+ *   Both arrays represent the same string
+ *   if and only if the generated strings are the same.
  **
  * https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/
 ***/
