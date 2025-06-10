@@ -9,7 +9,8 @@
  * Example 1:
  *   Input: s = "1001"
  *   Output: false
- *   Explanation: The ones do not form a contiguous segment.
+ *   Explanation:
+ *     The ones do not form a contiguous segment.
  *
  * Example 2:
  *   Input: s = "110"
