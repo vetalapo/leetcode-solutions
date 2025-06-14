@@ -56,7 +56,7 @@
  *   • 10 <= cancelTimeMs <= 1000
  **
  * https://leetcode.com/problems/timeout-cancellation/
-**/
+***/
 
 /**
  * @param {Function} fn
