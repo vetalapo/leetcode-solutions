@@ -39,7 +39,7 @@
  *   • Note: nums is the array passed to the constructor
  **
  * https://leetcode.com/problems/array-wrapper/
-**/
+***/
 
 /**
  * @param {number[]} nums
