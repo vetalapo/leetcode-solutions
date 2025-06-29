@@ -14,7 +14,7 @@
  *   Output: "-10"
  *
  * Constraints:
- *   -10^7 <= num <= 10^7
+ *   • -10^7 <= num <= 10^7
  **
  * https://leetcode.com/problems/base-7/
 ***/
