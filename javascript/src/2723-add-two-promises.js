@@ -28,7 +28,7 @@
  * Constraints: promise1 and promise2 are promises that resolve with a number
  **
  * https://leetcode.com/problems/add-two-promises/
-**/
+***/
 
 /**
  * @param {Promise} promise1
