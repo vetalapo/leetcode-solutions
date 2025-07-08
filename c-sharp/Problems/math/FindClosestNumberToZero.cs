@@ -31,7 +31,7 @@
  *
  * Hint 1:
  *   Keep track of the number closest to 0 as you iterate through the array.
- * 
+ *
  * Hint 2:
  *   Ensure that if multiple numbers are closest to 0,
  *   you store the one with the largest value.
