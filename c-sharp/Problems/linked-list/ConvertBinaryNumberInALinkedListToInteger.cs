@@ -24,6 +24,15 @@
  *   • The Linked List is not empty.
  *   • Number of nodes will not exceed 30.
  *   • Each node's value is either 0 or 1.
+ *
+ * Hint 1:
+ *   Traverse the linked list and store all values in a string or array.
+ *   convert the values obtained to decimal value.
+ *
+ * Hint 2:
+ *   You can solve the problem in O(1) memory using bits operation.
+ *   use shift left operation ( << ) and or operation ( | )
+ *   to get the decimal value in one operation.
  **
  * https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
 ***/
