@@ -22,7 +22,8 @@
  *     • n = -2
  *     • ["call","call","call","call","call"]
  *   Output: [-2,-1,0,1,2]
- *     • Explanation: counter() initially returns -2. Then increases after each subsequent call.
+ *     • Explanation: counter() initially returns -2.
+ *       Then increases after each subsequent call.
  *
  * Constraints:
  *   • -1000 <= n <= 1000
