@@ -15,6 +15,39 @@ public class TreeNode
         this.right = right;
     }
 
+    public static TreeNode Create( int?[] values )
+    {
+        if ( values.Length == 0 || values[0] is null )
+        {
+            return null;
+        }
+
+        TreeNode root = new( (int)values[0] );
+
+        Queue<TreeNode> queue = [];
+        queue.Enqueue( root );
+
+        for ( int i = 1; i < values.Length; i += 2 )
+        {
+            TreeNode node = queue.Dequeue();
+
+            node.left = values[i] is null ? null : new TreeNode( (int)values[i] );
+            node.right = i >= values.Length || values[i + 1] is null ? null : new TreeNode( (int)values[i + 1] );
+
+            if ( node.left is not null )
+            {
+                queue.Enqueue( node.left );
+            }
+
+            if ( node.right is not null )
+            {
+                queue.Enqueue( node.right );
+            }
+        }
+
+        return root;
+    }
+
     // BST: Binary Search Tree
     public static TreeNode CreateBST( int[] values )
     {
