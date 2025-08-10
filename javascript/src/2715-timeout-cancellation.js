@@ -59,20 +59,6 @@
 ***/
 
 /**
- * @param {Function} fn
- * @param {Array} args
- * @param {number} t
- * @return {Function}
-***/
-const cancellable = (fn, args, t) => {
-    const timer = setTimeout(() => fn(...args), t);
-
-    return () => {
-        clearTimeout(timer);
-    }
-};
-
-/**
  *  const result = [];
  *
  *  const fn = (x) => x * 5;
@@ -95,5 +81,19 @@ const cancellable = (fn, args, t) => {
  *      console.log(result); // [{"time":20,"returned":10}]
  *  }, maxT + 15)
 ***/
+
+/**
+ * @param {Function} fn
+ * @param {Array} args
+ * @param {number} t
+ * @return {Function}
+***/
+const cancellable = (fn, args, t) => {
+    const timer = setTimeout(() => fn(...args), t);
+
+    return () => {
+        clearTimeout(timer);
+    }
+};
 
 module.exports = cancellable;
