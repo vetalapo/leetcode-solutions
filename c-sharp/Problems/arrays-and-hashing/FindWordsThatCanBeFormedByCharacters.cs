@@ -40,7 +40,9 @@
  *   Count how many times each character occurs in string chars.
  *
  * Hint 4:
- *   To form a string using characters from chars, the frequency of each character in chars must be greater than or equal the frequency of that character in the string to be formed.
+ *   To form a string using characters from chars,
+ *   the frequency of each character in chars must be greater than or equal
+ *   the frequency of that character in the string to be formed.
  **
  * https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/
 ***/
