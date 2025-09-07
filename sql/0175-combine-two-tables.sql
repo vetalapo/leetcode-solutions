@@ -62,7 +62,7 @@
  *   addressId = 1 contains information about the address of personId = 2.
  **
  * https://leetcode.com/problems/combine-two-tables/
-**/
+***/
 
 SELECT
   firstName,
