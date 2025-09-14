@@ -30,7 +30,8 @@
  *   • obj is a valid JSON object or array
  *   • 2 <= JSON.stringify(obj).length <= 10^5
  *
- * Can you solve it in O(1) time?
+ * Follow up:
+ *   Can you solve it in O(1) time?
  **
  * https://leetcode.com/problems/is-object-empty/
 ***/
