@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace Problems;
+using Problems;
 
 public class MaximumAscendingSubarraySumTests
 {

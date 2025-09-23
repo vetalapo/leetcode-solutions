@@ -2,7 +2,7 @@
 
 using NUnit.Framework;
 
-namespace Problems;
+using Problems;
 
 public class CheckIfTheSentenceIsPangramTests
 {
@@ -19,7 +19,7 @@ public class CheckIfTheSentenceIsPangramTests
         get
         {
             yield return new TestCaseData( "thequickbrownfoxjumpsoverthelazydog" ).Returns( true );
-            
+
             yield return new TestCaseData( "leetcode" ).Returns( false );
         }
     }

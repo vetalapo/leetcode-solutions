@@ -30,6 +30,8 @@
 using System.Collections.Generic;
 using System.Linq;
 
+namespace Problems;
+
 public class UncommonWordsFromTwoSentences
 {
     public string[] UncommonFromSentences( string s1, string s2 )

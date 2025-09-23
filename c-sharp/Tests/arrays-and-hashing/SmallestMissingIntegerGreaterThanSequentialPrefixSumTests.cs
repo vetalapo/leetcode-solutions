@@ -1,6 +1,8 @@
 ﻿using NUnit.Framework;
 
-namespace Problems.ArraysAndHashing;
+using Problems;
+
+namespace ArraysAndHashing;
 
 public class SmallestMissingIntegerGreaterThanSequentialPrefixSumTests
 {

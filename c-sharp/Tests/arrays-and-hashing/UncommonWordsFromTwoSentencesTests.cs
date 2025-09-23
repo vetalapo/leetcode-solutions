@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace Problems.Tests;
+using Problems;
 
 public class UncommonWordsFromTwoSentencesTests
 {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 using NUnit.Framework;
 
-namespace Problems;
+using Problems;
 
 public class FindAllDuplicatesInAnArrayTests
 {
