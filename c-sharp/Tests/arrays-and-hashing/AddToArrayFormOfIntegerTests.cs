@@ -4,6 +4,8 @@ using NUnit.Framework;
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class AddToArrayFormOfIntegerTests
 {
     [TestCase( new int[] { 1, 2, 0, 0 }, 34, ExpectedResult = new int[] { 1, 2, 3, 4 } )]
