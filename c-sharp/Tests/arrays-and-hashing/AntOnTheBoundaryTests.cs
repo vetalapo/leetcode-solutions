@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class AntOnTheBoundaryTests
 {
     [TestCase( new int[] { 2, 3, -5 }, ExpectedResult = 1 )]
