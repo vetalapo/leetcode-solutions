@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class AverageSalaryExcludingTheMinimumAndMaximumSalaryTests
 {
     [TestCase( new int[] { 4000, 3000, 1000, 2000 }, ExpectedResult = 2500.0 )]
