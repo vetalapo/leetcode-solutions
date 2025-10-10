@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class CheckBalancedStringTests
 {
     [TestCase( "1234", ExpectedResult = false )]
