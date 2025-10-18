@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class CheckIfAllCharactersHaveEqualNumberOfOccurrencesTests
 {
     [TestCase( "abacbc", ExpectedResult = true )]
