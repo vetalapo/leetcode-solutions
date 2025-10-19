@@ -4,6 +4,8 @@ using NUnit.Framework;
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class CheckIfAStringIsAnAcronymOfWordsTests
 {
     [TestCase( new string[] { "alice", "bob", "charlie" }, "abc", ExpectedResult = true )]
