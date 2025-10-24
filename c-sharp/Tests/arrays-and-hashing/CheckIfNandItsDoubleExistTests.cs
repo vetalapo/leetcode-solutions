@@ -1,5 +1,7 @@
 ﻿using NUnit.Framework;
 
+namespace ArraysAndHashing;
+
 public class CheckIfNandItsDoubleExistTests
 {
     [TestCase( new int[] { 10, 2, 5, 3 }, ExpectedResult = true )]
