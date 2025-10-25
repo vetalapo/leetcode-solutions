@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class CheckIfNumberHasEqualDigitCountAndDigitValueTests
 {
     [TestCase( "1210", ExpectedResult = true )]
