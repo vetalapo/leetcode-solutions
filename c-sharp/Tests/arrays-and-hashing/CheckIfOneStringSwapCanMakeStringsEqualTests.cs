@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class CheckIfOneStringSwapCanMakeStringsEqualTests
 {
     [TestCase( "bank", "kanb", ExpectedResult = true )]
