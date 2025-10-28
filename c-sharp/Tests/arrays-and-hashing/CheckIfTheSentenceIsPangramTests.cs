@@ -4,6 +4,8 @@ using NUnit.Framework;
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class CheckIfTheSentenceIsPangramTests
 {
     [TestCaseSource( nameof( TestValues ) )]
