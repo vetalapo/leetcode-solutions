@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class CheckIfTwoStringArraysAreEquivalentTests
 {
     [TestCase( new string[] { "ab", "c" }, new string[] { "a", "bc" }, ExpectedResult = true )]
