@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class CheckIfWordEqualsSummationOfTwoWordsTests
 {
     [TestCase( "acb", "cba", "cdb", ExpectedResult = true )]
