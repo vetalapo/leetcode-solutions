@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class ConsecutiveCharactersTests
 {
     [TestCase( "leetcode", ExpectedResult = 2 )]
