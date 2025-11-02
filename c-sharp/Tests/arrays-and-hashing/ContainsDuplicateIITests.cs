@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class ContainsDuplicateIITests
 {
     [TestCase( new int[] { 1, 2, 3, 1 }, 3, ExpectedResult = true )]
