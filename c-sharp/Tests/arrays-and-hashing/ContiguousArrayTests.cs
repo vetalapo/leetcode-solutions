@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class ContiguousArrayTests
 {
     [TestCase( new int[] { 0, 1 }, ExpectedResult = 2 )]
