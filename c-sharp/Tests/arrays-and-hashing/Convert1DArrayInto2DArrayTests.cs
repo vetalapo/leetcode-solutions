@@ -5,6 +5,8 @@ using NUnit.Framework;
 
 using Problems;
 
+namespace  ArraysAndHashing;
+
 public class Convert1DArrayInto2DArrayTests
 {
     [TestCaseSource( nameof( TestCases ) )]
