@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class CountCommonWordsWithOneOccurrenceTests
 {
     [TestCase( new string[] { "leetcode", "is", "amazing", "as", "is" }, new string[] { "amazing", "leetcode", "is" }, ExpectedResult = 2 )]
