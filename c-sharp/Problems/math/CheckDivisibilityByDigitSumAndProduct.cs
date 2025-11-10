@@ -28,6 +28,10 @@
  *
  * Constraints:
  *   • 1 <= n <= 10^6
+ *
+ * Hint 1:
+ *   Compute the digits' sum and product,
+ *   then check if n % (sum + product) == 0.
  **
  * https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/
 ***/
