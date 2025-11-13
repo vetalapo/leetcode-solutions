@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class CountElementsWithMaximumFrequencyTests
 {
     [TestCase( new int[] { 1, 2, 2, 3, 1, 4 }, ExpectedResult = 4 )]
