@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class CountLargestGroupSolutionTests
 {
     [TestCase( 13, ExpectedResult = 4 )]
