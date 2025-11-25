@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class FindTheOriginalTypedStringITests
 {
     [TestCase( "abbcccc", ExpectedResult = 5 )]
