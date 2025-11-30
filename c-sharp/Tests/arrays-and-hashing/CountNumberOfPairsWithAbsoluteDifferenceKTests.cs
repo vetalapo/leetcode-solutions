@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class CountNumberOfPairsWithAbsoluteDifferenceKTests
 {
     [TestCase( new int[] { 1, 2, 2, 1 }, 1, ExpectedResult = 4 )]
