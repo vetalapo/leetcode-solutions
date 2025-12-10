@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class CountPrefixesOfAGivenStringTests
 {
     [TestCase( new string[] { "a", "b", "c", "ab", "bc", "abc" }, "abc", ExpectedResult = 3 )]
