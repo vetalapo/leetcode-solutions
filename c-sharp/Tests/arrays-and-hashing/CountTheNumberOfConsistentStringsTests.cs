@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class CountTheNumberOfConsistentStringsTests
 {
     [TestCase( "ab", new string[] { "ad", "bd", "aaab", "baa", "badab" }, ExpectedResult = 2 )]
