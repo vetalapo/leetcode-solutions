@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class CountTheNumberOfSpecialCharactersITests
 {
     [TestCase( "aaAbcBC", ExpectedResult = 3 )]
