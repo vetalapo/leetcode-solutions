@@ -4,6 +4,8 @@ using NUnit.Framework;
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class FindThePeaksTests
 {
     [TestCase( new int[] { 2, 4, 4 }, ExpectedResult = new int[] { } )]
