@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class CountTheNumberOfVowelStringsInRangeTests
 {
     [TestCase( [new string[] { "are", "amy", "u" }, 0, 2], ExpectedResult = 2 )]
