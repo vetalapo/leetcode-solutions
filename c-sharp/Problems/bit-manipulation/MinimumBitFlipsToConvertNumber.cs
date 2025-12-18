@@ -47,6 +47,14 @@
  * Note:
  *   This question is the same as 461: Hamming Distance
  *   (https://leetcode.com/problems/hamming-distance/).
+ *
+ * Hint 1:
+ *   If the value of a bit in start and goal differ,
+ *   then we need to flip that bit.
+ *
+ * Hint 2:
+ *   Consider using the XOR operation to determine
+ *   which bits need a bit flip.
  **
  * https://leetcode.com/problems/minimum-bit-flips-to-convert-number/
 ***/
