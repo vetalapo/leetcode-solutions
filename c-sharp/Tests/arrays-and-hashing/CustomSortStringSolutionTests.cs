@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class CustomSortStringSolutionTests
 {
     [TestCase( "cba", "abcd", ExpectedResult = "cbad" )]
