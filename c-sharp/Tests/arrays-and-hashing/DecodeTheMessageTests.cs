@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class DecodeTheMessageTests
 {
     [TestCase( "the quick brown fox jumps over the lazy dog", "vkbs bs t suepuv", ExpectedResult = "this is a secret" )]
