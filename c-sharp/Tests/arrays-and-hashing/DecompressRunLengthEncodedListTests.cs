@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class DecompressRunLengthEncodedListTests
 {
     [TestCase( new int[] { 1, 2, 3, 4 }, ExpectedResult = new int[] { 2, 4, 4, 4 } )]
