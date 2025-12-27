@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class ElementAppearingMoreThan25PercentInSortedArrayTests
 {
     [TestCase( new int[] { 1, 2, 2, 6, 6, 6, 6, 7, 10 }, ExpectedResult = 6 )]
