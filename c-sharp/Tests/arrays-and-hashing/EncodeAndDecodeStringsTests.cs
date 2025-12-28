@@ -4,6 +4,8 @@ using NUnit.Framework;
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class EncodeAndDecodeStringsTests
 {
     [TestCase( [new string[] { "lint", "code", "love", "you" }], ExpectedResult = "4#lint4#code4#love3#you" )]
