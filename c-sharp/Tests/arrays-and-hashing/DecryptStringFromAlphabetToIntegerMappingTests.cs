@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class DecryptStringFromAlphabetToIntegerMappingTests
 {
     [TestCase( "10#11#12", ExpectedResult = "jkab" )]
