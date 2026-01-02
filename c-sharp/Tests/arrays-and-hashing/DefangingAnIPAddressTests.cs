@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class DefangingAnIPAddressTests
 {
     [TestCase( "1.1.1.1", ExpectedResult = "1[.]1[.]1[.]1" )]
