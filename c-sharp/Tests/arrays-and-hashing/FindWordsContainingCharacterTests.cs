@@ -5,6 +5,8 @@ using NUnit.Framework;
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class FindWordsContainingCharacterTests
 {
     [TestCaseSource( nameof( TestCases ) )]
