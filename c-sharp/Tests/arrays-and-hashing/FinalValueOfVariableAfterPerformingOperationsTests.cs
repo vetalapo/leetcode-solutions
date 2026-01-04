@@ -4,6 +4,8 @@ using NUnit.Framework;
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class FinalValueOfVariableAfterPerformingOperationsTests
 {
     [TestCaseSource( nameof( TestCases ) )]
@@ -15,9 +17,9 @@ public class FinalValueOfVariableAfterPerformingOperationsTests
         get
         {
             yield return new TestCaseData( [new string[] { "--X", "X++", "X++" }] ).Returns( 1 );
-            
+
             yield return new TestCaseData( [new string[] { "++X", "++X", "X++" }] ).Returns( 3 );
-            
+
             yield return new TestCaseData( [new string[] { "X++", "++X", "--X", "X--" }] ).Returns( 0 );
         }
     }
