@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class DeleteCharactersToMakeFancyStringTests
 {
     [TestCase( "leeetcode", ExpectedResult = "leetcode" )]
