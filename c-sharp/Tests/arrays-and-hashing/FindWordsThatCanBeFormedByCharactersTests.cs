@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class FindWordsThatCanBeFormedByCharactersTests
 {
     [TestCase( [new string[] { "cat", "bt", "hat", "tree" }, "atach"], ExpectedResult = 6 )]
