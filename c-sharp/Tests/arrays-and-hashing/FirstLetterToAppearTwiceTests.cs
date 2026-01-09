@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class FirstLetterToAppearTwiceTests
 {
     [TestCase( "abccbaacz", ExpectedResult = 'c' )]
