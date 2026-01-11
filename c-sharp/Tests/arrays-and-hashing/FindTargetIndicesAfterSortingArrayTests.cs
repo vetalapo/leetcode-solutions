@@ -4,6 +4,8 @@ using NUnit.Framework;
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class FindTargetIndicesAfterSortingArrayTests
 {
     [TestCase( new int[] { 1, 2, 5, 2, 3 }, 2, ExpectedResult = new int[] { 1, 2 } )]
