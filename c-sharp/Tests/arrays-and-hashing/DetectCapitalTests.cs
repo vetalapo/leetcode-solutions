@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class DetectCapitalTests
 {
     [TestCase( "USA", ExpectedResult = true )]
