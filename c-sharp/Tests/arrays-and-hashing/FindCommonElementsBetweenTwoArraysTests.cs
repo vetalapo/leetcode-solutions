@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class FindCommonElementsBetweenTwoArraysTests
 {
     [TestCase( new int[] { 2, 3, 2 }, new int[] { 1, 2 }, ExpectedResult = new int[] { 2, 1 } )]
