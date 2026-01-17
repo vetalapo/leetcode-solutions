@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class FormSmallestNumberFromTwoDigitArraysTests
 {
     [TestCase( new int[] { 4, 1, 3 }, new int[] { 5, 7 }, ExpectedResult = 15 )]
