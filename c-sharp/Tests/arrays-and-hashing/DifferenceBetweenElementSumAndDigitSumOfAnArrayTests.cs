@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class DifferenceBetweenElementSumAndDigitSumOfAnArrayTests
 {
     [TestCase( new int[] { 1, 15, 6, 3 }, ExpectedResult = 9 )]
