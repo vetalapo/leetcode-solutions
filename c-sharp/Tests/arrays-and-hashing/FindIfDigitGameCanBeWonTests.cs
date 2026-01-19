@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class FindIfDigitGameCanBeWonTests
 {
     [TestCase( new int[] { 1, 2, 3, 4, 10 }, ExpectedResult = false )]
