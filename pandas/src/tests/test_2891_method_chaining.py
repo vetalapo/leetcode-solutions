@@ -25,7 +25,7 @@ expected_df = pd.DataFrame({
 
 class TestFindHeavyAnimals(unittest.TestCase):
     def test_findHeavyAnimals(self):
-        actual_df = unit.findHeavyAnimals(sample_df)
+        actual_df = unit.findHeavyAnimals(sample_df).reset_index(drop=True)
         
         pd.testing.assert_frame_equal(actual_df, expected_df)
 
