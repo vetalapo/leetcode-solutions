@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class DivideArrayIntoEqualPairsTests
 {
     [TestCase( new int[] { 3, 2, 3, 2, 2, 2 }, ExpectedResult = true )]
