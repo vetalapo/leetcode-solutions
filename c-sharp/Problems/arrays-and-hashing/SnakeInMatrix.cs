@@ -1,0 +1,69 @@
+﻿/**
+ * 3248
+ * Snake in Matrix
+ **
+ * There is a snake in an n x n matrix grid and can move in four possible directions.
+ * Each cell in the grid is identified by the position: grid[i][j] = (i * n) + j.
+ *
+ * The snake starts at cell 0 and follows a sequence of commands.
+ *
+ * You are given an integer n representing the size of the grid
+ * and an array of strings commands where each command[i] is either
+ * "UP", "RIGHT", "DOWN", and "LEFT".
+ * It's guaranteed that the snake will remain within the grid boundaries throughout its movement.
+ *
+ * Return the position of the final cell where the snake ends up after executing commands.
+ *
+ * Example 1:
+ *   Input: n = 2, commands = ["RIGHT","DOWN"]
+ *   Output: 3
+ *
+ * Example 2:
+ *   Input: n = 3, commands = ["DOWN","RIGHT","UP"]
+ *   Output: 1
+ *
+ * Constraints:
+ *   • 2 <= n <= 10
+ *   • 1 <= commands.length <= 100
+ *   • commands consists only of "UP", "RIGHT", "DOWN", and "LEFT".
+ *   • The input is generated such the snake will not move outside of the boundaries.
+ *
+ * Hint 1:
+ *   Try to update the row and column of the snake after each command.
+ **
+ * https://leetcode.com/problems/snake-in-matrix/
+***/
+
+using System.Collections.Generic;
+
+namespace Problems;
+
+public class SnakeInMatrix
+{
+    public int FinalPositionOfSnake( int n, IList<string> commands )
+    {
+        int row = 0;
+        int col = 0;
+
+        foreach ( string command in commands )
+        {
+            switch ( command[0] )
+            {
+                case 'U':
+                    row--;
+                    break;
+                case 'R':
+                    col++;
+                    break;
+                case 'D':
+                    row++;
+                    break;
+                case 'L':
+                    col--;
+                    break;
+            }
+        }
+
+        return row * n + col;
+    }
+}
