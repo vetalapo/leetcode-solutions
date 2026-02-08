@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class FruitsIntoBasketsIITests
 {
     [TestCase( new int[] { 4, 2, 5 }, new int[] { 3, 5, 4 }, ExpectedResult = 1 )]
