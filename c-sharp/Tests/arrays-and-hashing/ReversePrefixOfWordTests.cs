@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class ReversePrefixOfWordTests
 {
     [TestCase( "abcdefd", 'd', ExpectedResult = "dcbaefd" )]
