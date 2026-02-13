@@ -4,6 +4,8 @@ using NUnit.Framework;
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class FindIndicesOfStableMountainsTests
 {
     [TestCase( new int[] { 1, 2, 3, 4, 5 }, 2, ExpectedResult = new int[] { 3, 4 } )]
