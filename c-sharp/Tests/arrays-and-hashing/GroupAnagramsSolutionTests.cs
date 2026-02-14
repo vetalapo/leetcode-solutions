@@ -6,6 +6,8 @@ using NUnit.Framework;
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class GroupAnagramsSolutionTests
 {
     [TestCaseSource( nameof( TestCases ) )]
@@ -24,16 +26,16 @@ public class GroupAnagramsSolutionTests
     {
         get
         {
-            yield return new TestCaseData( new object[] { new string[] { "eat", "tea", "tan", "ate", "nat", "bat" } } )
+            yield return new TestCaseData( [new string[] { "eat", "tea", "tan", "ate", "nat", "bat" }] )
                 .Returns( new List<IList<string>>()
                 {
                     new List<string>() { "bat" }, new List<string>() { "tan", "nat" }, new List<string>() { "eat", "tea",  "ate" }
                 } );
 
-            yield return new TestCaseData( new object[] { new string[] { "" } } )
+            yield return new TestCaseData( [new string[] { "" }] )
                 .Returns( new List<IList<string>>() { new List<string>() { "" } } );
 
-            yield return new TestCaseData( new object[] { new string[] { "a" } } )
+            yield return new TestCaseData( [new string[] { "a" }] )
                 .Returns( new List<IList<string>>() { new List<string>() { "a" } } );
         }
     }
