@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class HeightCheckerSolutionTests
 {
     [TestCase( new int[] { 1, 1, 4, 2, 1, 3 }, ExpectedResult = 3 )]
