@@ -34,7 +34,7 @@ public class TreeNode
             node.left = values[i] is null
                 ? null
                 : new TreeNode( (int)values[i] );
-            
+
             node.right = i + 1 >= values.Length || values[i + 1] is null
                 ? null
                 : new TreeNode( (int)values[i + 1] );
