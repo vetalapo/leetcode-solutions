@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class HowManyNumbersAreSmallerThanTheCurrentNumberTests
 {
     [TestCase( new int[] { 8, 1, 2, 2, 3 }, ExpectedResult = new int[] { 4, 0, 1, 1, 3 } )]
