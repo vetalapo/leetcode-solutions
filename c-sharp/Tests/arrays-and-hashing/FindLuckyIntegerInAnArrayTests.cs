@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class FindLuckyIntegerInAnArrayTests
 {
     [TestCase( new int[] { }, ExpectedResult = -1 )]
