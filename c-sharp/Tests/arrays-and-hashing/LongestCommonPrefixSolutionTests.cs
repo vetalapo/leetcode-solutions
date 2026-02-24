@@ -4,6 +4,8 @@ using NUnit.Framework;
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class LongestCommonPrefixSolutionTests
 {
     [TestCaseSource( nameof( TestCases ) )]
@@ -15,11 +17,11 @@ public class LongestCommonPrefixSolutionTests
     {
         get
         {
-            yield return new TestCaseData( new object[] { new string[] { "flower", "flow", "flight" } } ).Returns( "fl" );
+            yield return new TestCaseData( [new string[] { "flower", "flow", "flight" }] ).Returns( "fl" );
 
-            yield return new TestCaseData( new object[] { new string[] { "flower", "flower", "flower" } } ).Returns( "flower" );
+            yield return new TestCaseData( [new string[] { "flower", "flower", "flower" }] ).Returns( "flower" );
 
-            yield return new TestCaseData( new object[] { new string[] { "dog", "racecar", "car" } } ).Returns( string.Empty );
+            yield return new TestCaseData( [new string[] { "dog", "racecar", "car" }] ).Returns( string.Empty );
         }
     }
 }
