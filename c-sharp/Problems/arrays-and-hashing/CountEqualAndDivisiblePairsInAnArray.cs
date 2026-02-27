@@ -20,7 +20,8 @@
  *   Input: nums = [1,2,3,4], k = 1
  *   Output: 0
  *   Explanation:
- *     Since no value in nums is repeated, there are no pairs (i,j) that meet all the requirements.
+ *     Since no value in nums is repeated,
+ *     there are no pairs (i,j) that meet all the requirements.
  *
  * Constraints:
  *   • 1 <= nums.length <= 100
