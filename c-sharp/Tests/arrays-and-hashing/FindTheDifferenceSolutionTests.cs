@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class FindTheDifferenceSolutionTests
 {
     [TestCase( "abcd", "abcde", ExpectedResult = 'e' )]
