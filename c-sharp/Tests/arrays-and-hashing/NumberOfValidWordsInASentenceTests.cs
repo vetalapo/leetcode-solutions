@@ -1,6 +1,8 @@
 ﻿using NUnit.Framework;
 
-namespace Problems;
+using Problems;
+
+namespace ArraysAndHashing;
 
 public class NumberOfValidWordsInASentenceTests
 {
