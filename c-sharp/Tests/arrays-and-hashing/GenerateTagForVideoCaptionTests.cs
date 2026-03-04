@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class GenerateTagForVideoCaptionTests
 {
     [TestCase( "Leetcode daily streak achieved", ExpectedResult = "#leetcodeDailyStreakAchieved" )]
