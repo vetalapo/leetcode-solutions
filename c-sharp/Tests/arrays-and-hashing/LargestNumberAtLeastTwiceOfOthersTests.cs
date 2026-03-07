@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class LargestNumberAtLeastTwiceOfOthersTests
 {
     [TestCase( new int[] { 3, 6, 1, 0 }, ExpectedResult = 1 )]
