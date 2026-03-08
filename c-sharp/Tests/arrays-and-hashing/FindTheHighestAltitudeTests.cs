@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class FindTheHighestAltitudeTests
 {
     [TestCase( new int[] { -5, 1, 5, 0, -7 }, ExpectedResult = 1 )]
