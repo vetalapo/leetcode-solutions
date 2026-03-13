@@ -1,6 +1,9 @@
 ﻿using NUnit.Framework;
 
 using Problems;
+
+namespace ArraysAndHashing;
+
 public class FindMostFrequentVowelAndConsonantTests
 {
     [TestCase( "successes", ExpectedResult = 6 )]
