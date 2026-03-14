@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class IntersectionOfTwoArraysTests
 {
     [TestCase( new int[] { 1, 2, 2, 1 }, new int[] { 2, 2 }, ExpectedResult = new int[] { 2 } )]
