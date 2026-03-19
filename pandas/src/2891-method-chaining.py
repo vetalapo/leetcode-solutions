@@ -54,7 +54,8 @@
 # without breaking up each operation into a separate line
 # or creating multiple temporary variables. 
 #
-# Can you complete this task in just one line of code using method chaining?
+# Can you complete this task in just one line of code
+# using method chaining?
 ##
 # https://leetcode.com/problems/method-chaining/
 ##
