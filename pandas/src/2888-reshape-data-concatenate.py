@@ -58,9 +58,11 @@
 #   +------------+---------+-----+
 #
 #   Explanation:
-#   The two DataFrames are stacked vertically, and their rows are combined.
+#     The two DataFrames are stacked vertically, and their rows are combined.
 #
-# Hint: Consider using a built-in function in pandas library with the appropriate axis argument.
+# Hint:
+#   Consider using a built-in function in pandas library
+#   with the appropriate axis argument.
 ##
 # https://leetcode.com/problems/reshape-data-concatenate/
 ##
