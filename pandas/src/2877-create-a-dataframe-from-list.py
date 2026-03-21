@@ -30,7 +30,8 @@
 #     +------------+-----+
 #
 #   Explanation:
-#     A DataFrame was created on top of student_data, with two columns named student_id and age.
+#     A DataFrame was created on top of student_data,
+#     with two columns named student_id and age.
 ##
 # https://leetcode.com/problems/create-a-dataframe-from-list/
 ##
