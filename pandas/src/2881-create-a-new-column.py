@@ -44,8 +44,10 @@
 #
 #   Explanation: A new column bonus is created by doubling the value in the column salary.
 #
-# Hint: Consider using the `[]` brackets with the new column name at the left side of the assignment.
-# The calculation of the value is done element-wise.
+# Hint:
+#   Consider using the `[]` brackets with the new column name
+#   at the left side of the assignment.
+#   The calculation of the value is done element-wise.
 ##
 # https://leetcode.com/problems/create-a-new-column/
 ##
