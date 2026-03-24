@@ -42,7 +42,8 @@
 #   | Thomas  | 24433  | 48866  |
 #   +---------+--------+--------+
 #
-#   Explanation: A new column bonus is created by doubling the value in the column salary.
+#   Explanation:
+#     A new column bonus is created by doubling the value in the column salary.
 #
 # Hint:
 #   Consider using the `[]` brackets with the new column name
