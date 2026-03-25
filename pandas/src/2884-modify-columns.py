@@ -38,7 +38,7 @@
 #   +---------+--------+
 #
 #   Explanation:
-#   Every salary has been doubled.
+#     Every salary has been doubled.
 ##
 # https://leetcode.com/problems/modify-columns/
 ##
