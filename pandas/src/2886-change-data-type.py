@@ -34,8 +34,9 @@
 #   
 #   Explanation: The data types of the column grade is converted to int.
 #
-# Hint 1
-# Consider using a build-in function in pandas library with a dictionary to convert the datatype of columns as specified.
+# Hint 1:
+#   Consider using a build-in function in pandas library
+#   with a dictionary to convert the datatype of columns as specified.
 ##
 # https://leetcode.com/problems/change-data-type/
 ##
