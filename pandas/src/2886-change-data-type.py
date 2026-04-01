@@ -32,7 +32,8 @@
 #   | 2          | Kate | 15  | 87    |
 #   +------------+------+-----+-------+
 #   
-#   Explanation: The data types of the column grade is converted to int.
+#   Explanation:
+#     The data types of the column grade is converted to int.
 #
 # Hint 1:
 #   Consider using a build-in function in pandas library
