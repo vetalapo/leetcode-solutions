@@ -3,14 +3,14 @@
 # Rename Columns
 ##
 # DataFrame students
-# +-------------+--------+
-# | Column Name | Type   |
-# +-------------+--------+
-# | id          | int    |
-# | first       | object |
-# | last        | object |
-# | age         | int    |
-# +-------------+--------+
+#   +-------------+--------+
+#   | Column Name | Type   |
+#   +-------------+--------+
+#   | id          | int    |
+#   | first       | object |
+#   | last        | object |
+#   | age         | int    |
+#   +-------------+--------+
 #
 # Write a solution to rename the columns as follows:
 #   • id to student_id
