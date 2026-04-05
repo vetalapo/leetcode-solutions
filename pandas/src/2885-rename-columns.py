@@ -31,6 +31,7 @@
 #     | 4  | Georgia | Thompson | 18  |
 #     | 5  | Thomas  | Moore    | 10  |
 #     +----+---------+----------+-----+
+#
 #   Output:
 #     +------------+------------+-----------+--------------+
 #     | student_id | first_name | last_name | age_in_years |
@@ -41,6 +42,7 @@
 #     | 4          | Georgia    | Thompson  | 18           |
 #     | 5          | Thomas     | Moore     | 10           |
 #     +------------+------------+-----------+--------------+
+#   
 #   Explanation:
 #     The column names are changed accordingly.
 #
