@@ -32,6 +32,7 @@
 #     | Stefan   | Bear    | 100 | 50     |
 #     | Tommy    | Panda   | 26  | 349    |
 #     +----------+---------+-----+--------+
+#
 #   Output: 
 #     +----------+
 #     | name     |
@@ -41,6 +42,7 @@
 #     | Tommy    |
 #     | Alex     |
 #     +----------+
+#
 #   Explanation: 
 #     All animals weighing more than 100 should be included in the results table.
 #     Tatiana's weight is 464,
