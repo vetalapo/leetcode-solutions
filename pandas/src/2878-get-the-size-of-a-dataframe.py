@@ -36,8 +36,10 @@
 #     | 761       | Jack     | 33  | Midfielder  | ManchesterCity     |
 #     | 642       | Charlie  | 36  | Center-back | Arsenal            |
 #     +-----------+----------+-----+-------------+--------------------+
+#
 #   Output:
 #     [10, 5]
+#
 #   Explanation:
 #     This DataFrame contains 10 rows and 5 columns.
 #
