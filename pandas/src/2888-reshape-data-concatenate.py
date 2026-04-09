@@ -20,7 +20,8 @@
 #   | age         | int    |
 #   +-------------+--------+
 #
-# Write a solution to concatenate these two DataFrames vertically into one DataFrame.
+# Write a solution to concatenate these
+# two DataFrames vertically into one DataFrame.
 #
 # The result format is in the following example.
 #
