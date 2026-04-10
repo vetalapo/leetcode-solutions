@@ -58,7 +58,8 @@
 #     +------------+---------+-----+
 #
 #   Explanation:
-#     The two DataFrames are stacked vertically, and their rows are combined.
+#     The two DataFrames are stacked vertically,
+#     and their rows are combined.
 #
 # Hint:
 #   Consider using a built-in function in pandas library
