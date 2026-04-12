@@ -11,6 +11,7 @@
 #   | age         | int    |
 #   | grade       | float  |
 #   +-------------+--------+
+#
 # Write a solution to correct the errors:
 #   The grade column is stored as floats, convert it to integers.
 #   The result format is in the following example.
