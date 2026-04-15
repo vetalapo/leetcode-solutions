@@ -13,7 +13,8 @@
 #   | ...         | ...    |
 #   +-------------+--------+
 #
-# Write a solution to calculate and display the number of rows and columns of players.
+# Write a solution to calculate and display
+# the number of rows and columns of players.
 #
 # Return the result as an array:
 #   [number of rows, number of columns]
