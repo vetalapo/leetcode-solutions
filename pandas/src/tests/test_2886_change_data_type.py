@@ -1,11 +1,10 @@
 ﻿import sys
-
-# Preventing creation of __pycache__
-sys.dont_write_bytecode = True
-
 import importlib
 import unittest
 import pandas as pd
+
+# Preventing creation of __pycache__
+sys.dont_write_bytecode = True
 
 # Python really doesn't like paths with "-" and "/"
 # I don't like Python not liking it so
