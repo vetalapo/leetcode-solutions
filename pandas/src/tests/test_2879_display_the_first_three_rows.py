@@ -28,7 +28,6 @@ expected_data = {
 input_df = pd.DataFrame(data = input_data)
 expected_df = pd.DataFrame(data = expected_data)
 
-
 class TestDisplayTheFirstThreeRows(unittest.TestCase):
     def test_selectFirstRows(self):
         actual_df = unit.selectFirstRows(input_df)
