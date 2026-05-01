@@ -24,7 +24,6 @@ expected_data = {
 input_df = pd.DataFrame(data = input_data)
 expected_df = pd.DataFrame(data = expected_data)
 
-
 class TestModifySalary(unittest.TestCase):
     def test_modifySalaryColumn(self):
         actual_df = unit.modifySalaryColumn(input_df)
