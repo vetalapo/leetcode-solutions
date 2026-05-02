@@ -37,12 +37,11 @@
 ##
 
 import sys
+import pandas as pd
 from typing import List
 
 # Preventing creation of __pycache__
 sys.dont_write_bytecode = True
-
-import pandas as pd
 
 def createDataframe(student_data: List[List[int]]) -> pd.DataFrame:
     return pd.DataFrame(student_data, columns=["student_id", "age"])
