@@ -52,12 +52,11 @@
 ##
 
 import sys
+import pandas as pd
 from typing import List
 
 # Preventing creation of __pycache__
 sys.dont_write_bytecode = True
-
-import pandas as pd
 
 def getDataframeSize(players: pd.DataFrame) -> List[int]:
     return [players.index.size, players.columns.size]
