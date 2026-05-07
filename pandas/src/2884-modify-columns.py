@@ -44,11 +44,10 @@
 ##
 
 import sys
+import pandas as pd
 
 # Preventing creation of __pycache__
 sys.dont_write_bytecode = True
-
-import pandas as pd
 
 def multiplyByTwo(num):
     return num * 2
