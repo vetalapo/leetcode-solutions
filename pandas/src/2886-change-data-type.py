@@ -46,11 +46,10 @@
 ##
 
 import sys
+import pandas as pd
 
 # Preventing creation of __pycache__
 sys.dont_write_bytecode = True
-
-import pandas as pd
 
 def changeDatatype(students: pd.DataFrame) -> pd.DataFrame:
     students.grade = students.grade.astype(int)
