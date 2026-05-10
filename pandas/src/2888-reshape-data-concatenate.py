@@ -69,11 +69,10 @@
 ##
 
 import sys
+import pandas as pd
 
 # Preventing creation of __pycache__
 sys.dont_write_bytecode = True
-
-import pandas as pd
 
 def concatenateTables(df1: pd.DataFrame, df2: pd.DataFrame) -> pd.DataFrame:
     return pd.concat([df1, df2])
