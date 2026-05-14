@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class SeparateTheDigitsInAnArrayTests
 {
     [TestCase( new int[] { 13, 25, 83, 77 }, ExpectedResult = new int[] { 1, 3, 2, 5, 8, 3, 7, 7 } )]
