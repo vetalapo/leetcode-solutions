@@ -25,6 +25,12 @@
  *   • 1 <= nums1.length, nums2.length <= 10^5
  *   • 1 <= nums1[i], nums2[j] <= 10^9
  *   • Both nums1 and nums2 are sorted in non-decreasing order.
+ *
+ * Hint 1:
+ *   Try to use a set.
+ *
+ * Hint 2
+ *   Otherwise, try to use a two-pointer approach.
  ** 
  * https://leetcode.com/problems/minimum-common-value/
 ***/
@@ -34,6 +40,31 @@ namespace Problems;
 public class MinimumCommonValue
 {
     public int GetCommon( int[] nums1, int[] nums2 )
+    {
+        int p1 = 0;
+        int p2 = 0;
+
+        while ( p1 < nums1.Length && p2 < nums2.Length )
+        {
+            if ( nums1[p1] == nums2[p2] )
+            {
+                return nums1[p1];
+            }
+
+            if ( nums1[p1] < nums2[p2] )
+            {
+                p1++;
+            }
+            else
+            {
+                p2++;
+            }
+        }
+
+        return -1;
+    }
+    
+    public int GetCommonBinarySearch( int[] nums1, int[] nums2 )
     {
         if ( nums1.Length < nums2.Length )
         {
