@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class DivisibleAndNonDivisibleSumsDifferenceTests
 {
     [TestCase( 10, 3, ExpectedResult = 19 )]
