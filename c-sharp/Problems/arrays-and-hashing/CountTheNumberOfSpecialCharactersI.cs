@@ -45,16 +45,16 @@ public class CountTheNumberOfSpecialCharactersI
     public int NumberOfSpecialChars( string word )
     {
         int count = 0;
-        bool[] set = new bool[123];
+        bool[] map = new bool['z' + 1];
 
         foreach ( char c in word )
         {
-            if ( !set[c] && set[c ^ 32] )
+            if ( !map[c] && map[c ^ 32] )
             {
                 count++;
             }
 
-            set[c] = true;
+            map[c] = true;
         }
 
         return count;
