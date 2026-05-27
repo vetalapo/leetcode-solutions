@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class FindTheIntegerAddedToArrayITests
 {
     [TestCase( new int[] { 2, 6, 4 }, new int[] { 9, 7, 5 }, ExpectedResult = 3 )]
