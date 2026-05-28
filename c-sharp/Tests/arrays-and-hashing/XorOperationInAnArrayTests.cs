@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class XorOperationInAnArrayTests
 {
     [TestCase( 5, 0, ExpectedResult = 8 )]
