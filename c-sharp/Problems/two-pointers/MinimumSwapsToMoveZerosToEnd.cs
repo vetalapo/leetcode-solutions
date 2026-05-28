@@ -38,6 +38,14 @@
  * Constraints:
  *   • 1 <= nums.length <= 100
  *   • 0 <= nums[i] <= 100
+ *
+ * Hint 1:
+ *   The values of non-zero elements do not matter.
+ *   Convert the array to zeros and ones.
+ *
+ * Hint 2:
+ *   All ones that are in positions
+ *   where a zero should be must be swapped out.
  **
  * https://leetcode.com/problems/minimum-swaps-to-move-zeros-to-end/
 ***/
