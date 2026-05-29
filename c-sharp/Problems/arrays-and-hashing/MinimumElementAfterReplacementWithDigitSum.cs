@@ -48,20 +48,21 @@ public class MinimumElementAfterReplacementWithDigitSum
     {
         int min = int.MaxValue;
 
-        for ( int i = 0; i < nums.Length; i++ )
+        foreach ( int num in nums )
         {
-            int num = nums[i];
-            int digitSum = 0;
-
-            while ( num > 0 )
-            {
-                digitSum += num % 10;
-                num /= 10;
-            }
-
-            min = Math.Min( min, digitSum );
+            min = Math.Min( min, DigitSum( num ) );
         }
 
         return min;
     }
+
+    private int DigitSum( int num )
+    {
+        if ( num == 0 )
+        {
+            return 0;
+        }
+
+        return num % 10 + DigitSum( num / 10 );
+    } 
 }
