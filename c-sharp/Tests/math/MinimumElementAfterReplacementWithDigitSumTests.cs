@@ -1,6 +1,8 @@
-﻿using NUnit.Framework;
+using NUnit.Framework;
 
 using Problems;
+
+namespace Mathematics;
 
 public class MinimumElementAfterReplacementWithDigitSumTests
 {
