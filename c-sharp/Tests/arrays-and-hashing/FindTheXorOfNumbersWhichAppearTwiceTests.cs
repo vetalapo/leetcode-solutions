@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class FindTheXorOfNumbersWhichAppearTwiceTests
 {
     [TestCase( new int[] { 1, 2, 1, 3 }, ExpectedResult = 1 )]
