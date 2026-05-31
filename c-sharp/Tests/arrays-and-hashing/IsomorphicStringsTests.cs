@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class IsomorphicStringsTests
 {
     [TestCase( "egg", "add", ExpectedResult = true )]
