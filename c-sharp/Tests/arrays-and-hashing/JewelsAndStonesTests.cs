@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class JewelsAndStonesTests
 {
     [TestCase( "aA", "aAAbbbb", ExpectedResult = 3 )]
