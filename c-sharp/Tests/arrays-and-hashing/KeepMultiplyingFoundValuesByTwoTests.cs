@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class KeepMultiplyingFoundValuesByTwoTests
 {
     [TestCase( new int[] { 5, 3, 6, 1, 12 }, 3, ExpectedResult = 24 )]
