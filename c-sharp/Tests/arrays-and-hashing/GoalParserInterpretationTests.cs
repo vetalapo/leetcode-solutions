@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class GoalParserInterpretationTests
 {
     [TestCase( "G()(al)", ExpectedResult = "Goal" )]
