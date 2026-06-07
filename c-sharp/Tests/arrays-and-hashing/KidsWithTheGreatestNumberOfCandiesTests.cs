@@ -4,6 +4,8 @@ using NUnit.Framework;
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class KidsWithTheGreatestNumberOfCandiesTests
 {
     [TestCase( new int[] { 2, 3, 5, 1, 3 }, 3, ExpectedResult = new bool[] { true, true, true, false, true } )]
