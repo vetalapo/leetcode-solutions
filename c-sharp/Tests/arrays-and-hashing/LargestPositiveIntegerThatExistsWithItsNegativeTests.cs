@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class LargestPositiveIntegerThatExistsWithItsNegativeTests
 {
     [TestCase( new int[] { -1, 2, -3, 3 }, ExpectedResult = 3 )]
