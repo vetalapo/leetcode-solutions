@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class LeftAndRightSumDifferencesTests
 {
     [TestCase( new int[] { 10, 4, 8, 3 }, ExpectedResult = new int[] { 15, 1, 11, 22 } )]
