@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class LengthOfLastWordSolutionTests
 {
     [TestCase( "Hello World", ExpectedResult = 5 )]
