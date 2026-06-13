@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class MostFrequentEvenElementTests
 {
     [TestCase( new int[] { 0, 1, 2, 2, 4, 4, 1 }, ExpectedResult = 2 )]
