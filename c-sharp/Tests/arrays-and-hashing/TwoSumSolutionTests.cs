@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class TwoSumSolutionTests
 {
     [TestCase( new int[] { 2, 7, 11, 15 }, 9, ExpectedResult = new int[] { 0, 1 } )]
