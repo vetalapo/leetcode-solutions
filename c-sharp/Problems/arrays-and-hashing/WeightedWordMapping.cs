@@ -44,7 +44,7 @@
  *     words = ["abcd"],
  *     weights = [7,5,3,4,3,5,4,9,4,2,2,7,10,2,5,10,6,1,2,2,4,1,3,4,4,5]
  *   Output: "g"
- *   Explanation:​​​​​​​
+ *   Explanation:
  *     The weight of "abcd" is 7 + 5 + 3 + 4 = 19.
  *     The result modulo 26 is 19 % 26 = 19, which maps to 'g'.
  *     Thus, the string formed by concatenating the mapped characters is "g".
@@ -71,7 +71,7 @@
  * https://leetcode.com/problems/weighted-word-mapping/
 ***/
 
-using System.Text;
+using System;
 
 namespace Problems;
 
@@ -79,27 +79,20 @@ public class WeightedWordMapping
 {
     public string MapWordWeights( string[] words, int[] weights )
     {
-        StringBuilder result = new();
+        Span<char> result = stackalloc char[words.Length];
 
-        foreach ( string word in words )
+        for ( int i = 0; i < words.Length; i++ )
         {
-            int weight = GetWordWeight( word, weights );
+            int weight = 0;
 
-            result.Append( (char)( 'z' - weight ) );
+            foreach ( char c in words[i] )
+            {
+                weight += weights[c - 'a'];
+            }
+
+            result[i] = (char)( 'z' - ( weight % 26 ) );
         }
 
         return result.ToString();
-    }
-
-    private int GetWordWeight( string word, int[] weights )
-    {
-        int sum = 0;
-
-        foreach ( char c in word )
-        {
-            sum += weights[c - 'a'];
-        }
-
-        return sum % 26;
     }
 }
