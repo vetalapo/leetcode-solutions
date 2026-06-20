@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class LongestContinuousIncreasingSubsequenceTests
 {
     [TestCase( new int[] { 1, 3, 5, 4, 7 }, ExpectedResult = 3 )]
