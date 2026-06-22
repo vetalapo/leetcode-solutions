@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class MaxConsecutiveOnesTests
 {
     [TestCase( new int[] { 1, 1, 0, 1, 1, 1 }, ExpectedResult = 3 )]
