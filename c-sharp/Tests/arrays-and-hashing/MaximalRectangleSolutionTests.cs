@@ -4,6 +4,8 @@ using NUnit.Framework;
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class MaximalRectangleSolutionTests
 {
     [TestCaseSource( nameof( TestCases ) )]
