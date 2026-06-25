@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class MaximumAscendingSubarraySumTests
 {
     [TestCase( new int[] { 10, 20, 30, 5, 10, 50 }, ExpectedResult = 65 )]
