@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class MaximumDifferenceBetweenAdjacentElementsInACircularArrayTests
 {
     [TestCase( new int[] { 1, 2, 4 }, ExpectedResult = 3 )]
