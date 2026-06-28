@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class MaximumDifferenceBetweenIncreasingElementsTests
 {
     [TestCase( new int[] { 7, 1, 5, 4 }, ExpectedResult = 4 )]
