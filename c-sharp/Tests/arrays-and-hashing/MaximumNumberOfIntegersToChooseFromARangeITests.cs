@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class MaximumNumberOfIntegersToChooseFromARangeITests
 {
     [TestCase( new int[] { 1, 6, 5 }, 5, 6, ExpectedResult = 2 )]
