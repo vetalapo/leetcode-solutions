@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class MaximumValueOfAStringInAnArrayTests
 {
     [TestCase( [new string[] { "alic3", "bob", "3", "4", "00000" }], ExpectedResult = 5 )]
