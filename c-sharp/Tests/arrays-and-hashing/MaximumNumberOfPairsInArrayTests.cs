@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class MaximumNumberOfPairsInArrayTests
 {
     [TestCase( new int[] { 1, 3, 2, 1, 3, 2, 2 }, ExpectedResult = new int[] { 3, 1 } )]
