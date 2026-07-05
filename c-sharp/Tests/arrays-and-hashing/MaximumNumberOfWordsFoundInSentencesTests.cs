@@ -2,6 +2,8 @@
 
 using Problems;
 
+namespace ArraysAndHashing;
+
 public class MaximumNumberOfWordsFoundInSentencesTests
 {
     [TestCase( [new string[] { "alice and bob love leetcode", "i think so too", "this is great thanks very much" }], ExpectedResult = 6 )]
