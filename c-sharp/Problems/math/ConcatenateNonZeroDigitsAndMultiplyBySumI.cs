@@ -42,15 +42,15 @@ public class ConcatenateNonZeroDigitsAndMultiplyBySumI
 {
     public long SumAndMultiply( int n )
     {
-        long resultNum = 0;
+        int x = 0;
         long sum = 0;
-        long pow = 1;
+        int pow = 1;
 
         while ( n > 0 )
         {
             if ( n % 10 > 0 )
             {
-                resultNum = ( n % 10 ) * pow + resultNum;
+                x = ( n % 10 ) * pow + x;
                 sum += n % 10;
                 pow *= 10;
             }
@@ -58,6 +58,6 @@ public class ConcatenateNonZeroDigitsAndMultiplyBySumI
             n /= 10;
         }
 
-        return resultNum * sum;
+        return x * sum;
     }
 }
