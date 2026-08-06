@@ -43,12 +43,12 @@ public class SmallestDivisibleDigitProductI
 {
     public int SmallestNumber( int n, int t )
     {
-        while ( DigitsProduct( n ) % t != 0 )
+        if ( DigitsProduct( n ) % t == 0 )
         {
-            n++;
+            return n;
         }
 
-        return n;
+        return SmallestNumber( n + 1, t );
     }
 
     private int DigitsProduct( int n )
@@ -59,6 +59,11 @@ public class SmallestDivisibleDigitProductI
         {
             product *= n % 10;
             n /= 10;
+
+            if ( product == 0 )
+            {
+                return 0;
+            }
         }
 
         return product;
